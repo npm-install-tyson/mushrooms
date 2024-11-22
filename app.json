@@ -1,0 +1,41 @@
+{
+	"expo": {
+		"name": "mushrooms",
+		"slug": "mushrooms",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"scheme": "myapp",
+		"userInterfaceStyle": "automatic",
+		"icon": "./assets/images/icon.png",
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.tyson.t.mushrooms"
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/images/adaptive-icon.png",
+				"backgroundColor": "#ffffff"
+			},
+			"package": "com.tyson.t.mushrooms"
+		},
+		"web": {
+			"bundler": "metro",
+			"output": "static",
+			"favicon": "./assets/images/favicon.png"
+		},
+		"plugins": ["expo-router", "expo-font"],
+		"experiments": {
+			"typedRoutes": true
+		},
+		"newArchEnabled": true,
+		"extra": {
+			"router": {
+				"origin": false
+			},
+			"eas": {
+				"projectId": "409038f2-337c-42c3-9823-ba5d83e6a454"
+			}
+		},
+		"owner": "tyson.t"
+	}
+}
